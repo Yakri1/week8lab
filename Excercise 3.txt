@@ -1,0 +1,83 @@
+var harryPotterFan = false;
+
+if (harryPotterFan) {
+  console.log('Mischief managed');
+} else {
+  console.log('I lead a muggle\'s life');
+}
+
+
+var hungerLevel = 10;
+
+if (hungerLevel > 7) {
+  console.log('Time to eat!');
+} else {
+  console.log('Let\'s eat later');
+}
+
+
+var moonPhase = 'full'
+if(moonPhase = 'full') {
+  console.log('Howwwlll!!')
+} else {
+  'I swear I am not a werewolf...'
+}
+
+
+var moonPhase = 'solar eclipse';
+
+if (moonPhase === 'full') {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+
+var moonPhase = 'full';
+
+if (moonPhase === 'full' || foggyNight === true) {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+var foggyNight = false;
+
+
+var moonPhase = 'full';
+
+if (moonPhase === 'full') {
+  console.log('Howwwlll!!');
+} else if (moonPhase === 'mostly full') {
+  console.log('Arms and legs are getting hairier');
+} else if (moonPhase === 'mostly new') {
+  console.log('Back on two feet');
+} else {
+  console.log('Invalid moon phase');
+}
+
+switch(moonPhase){
+     case 'full':
+    // run full code
+    break;
+  case 'mostly full':
+    // run mostly full code
+    break;
+  ...
+  case 'mostly new':
+  	// run mostly new code
+  break;
+     default:
+    console.log('Invalid moon phase');
+    break;
+                }
+
+
